@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.header_menu_button{
+  background-color: #4F4F4F;
+}
+
+.contactUs_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 60px;
+  font-family: Poppins;
+}
+
+.contactUs_content_footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  color: white;
+  margin-top: 50px;
+}
+
+.contact_us_footer_line{
+  width: 2px;
+  height: 120px;
+  background-color: white;
+}
+
+.contact_us_footer_part1{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.contact_us_footer_part1_img_place{
+  display: flex;
+  margin-left: -15px;
+}
+
+.contact_us_footer_part1_text{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contact_us_footer_part2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact_us_footer_part3{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+@media(max-width:1100px){
+  .socialmedia_img{
+    width: 42px;
+  }
+  .contactUs_content_footer{
+    gap: 50px;
+  }
+  .contact_us_footer_part1, .contact_us_footer_part2,.contact_us_footer_part3{
+    width: 200px;
+  }
+}
+@media(max-width:1000px){
+  .contact_us_footer_part2{
+    font-size: 14px;
+  }
+  .contactUs_content_footer{
+    gap: 10px;
+  }
+}
+@media(max-width:800px){
+  .contactUs_content{
+    padding: 80px 40px;
+  }
+}
+@media(max-width:700px){
+  .contactUs_content{
+    padding: 60px 30px;
+  }
+  .contact_us_footer_part1_text{
+    font-size: 14px;
+  }
+  .contact_us_footer_part2{
+    font-size: 12px;
+  }
+  .contact_us_footer_part3{
+    font-size: 14px;
+  }
+}
+@media(max-width:600px){
+  .contact_us_footer_part1, .contact_us_footer_part2,.contact_us_footer_part3{
+    width: 130px;
+  }
+  .socialmedia_img{
+    width: 35px;
+  }
+  .contact_us_footer_part2{
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  .contact_us_footer_part1_text{
+    font-size: 14px;
+  }
+  .contact_us_footer_part2{
+    font-size: 14px;
+    gap: 6px;
+  }
+  .contact_us_footer_part3{
+    font-size: 14px;
+    gap: 6px;
+  }
+  .content_us_part2_img{
+    width: 20px;
+  }
+  .content_us_part3_img{
+    width: 20px;
+  }
+}
+@media(max-width:500px){
+  .contactUs_content{
+    padding: 30px 20px;
+  }
+  .contact_us_footer_line{
+    width: 1px;
+  }
+  .contactUs_content_footer{
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contact_us_footer_part1{
+    gap: 10px;
+  }
+  .contact_us_footer_part1, .contact_us_footer_part2,.contact_us_footer_part3{
+    width: 100px;
+  }
+  .socialmedia_img{
+    width: 32px;
+  }
+  .contact_us_footer_part1_img_place{
+    margin-left: -10px;
+  }
+  .contact_us_footer_part1,.contact_us_footer_part3{
+    font-size: 12px;
+  }
+  .contact_us_footer_part2{
+    font-size: 11px;
+  }
+}
+@media(max-width:400px){
+  .contact_us_footer_line{
+    display: none;
+  }
+  .contactUs_content_footer{
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact_us_footer_part1, .contact_us_footer_part2,.contact_us_footer_part3{
+    width: 200px;
+    font-size: 16px;
+  }
+  .contact_us_footer_part2{
+    flex-direction: row;
+    justify-content: start;
+  }
+  .socialmedia_img{
+    width: 50px;
+  }
+  .contact_us_footer_part1_text{
+    font-size: 16px;
+  }
+  .contact_us_footer_part2, .contact_us_footer_part3{
+    gap: 20px;
+  }
+}
+
+.hello{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/Hello-bkg.png);
+  background-size: 105%;
+  padding: 200px 100px 100px 100px;
+  flex-direction: column;
+  gap: 80px;
+  background-size: cover;
+}
+
+.hello_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  color: white;
+}
+
+.hello_title{
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+.hello_subtitle{
+  font-size: 13px;
+}
+
+.hello_input_place{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 760px;
+}
+
+.input_place_line1{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.input_line1_input_place{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: start;
+  flex: 1 1 auto;
+}
+
+.input_place_text{
+  color: #4F4F4F;
+  font-size: 14px;
+}
+
+.input_line1{
+  height: 55px;
+  background-color: #4F4F4F;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.input_line2{
+  width: 100%;
+  height: 55px;
+  background-color: #4F4F4F;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.input_line3{
+  background-color: #4F4F4F;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 100%;
+  height: 230px;
+}
+
+.buuton_line4{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+}
+
+.hello_button{
+  padding: 20px 45px;
+  background-color: #DC7000;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+}
+@media(max-width:800px){
+  .hello{
+    padding: 80px 40px;
+    gap: 50px;
+  }
+  .hello_text{
+    margin-top: 70px;
+  }
+}
+@media(max-width:700px){
+  .hello{
+    padding: 60px 30px;
+  }
+  .hello_button{
+    padding: 14px 35px;
+  }
+  .hello_input_place{
+    gap: 10px;
+  }
+}
+@media(max-width:500px){
+  .hello{
+    padding: 40px 20px;
+  }
+  .input_place_line1{
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+  .input_line1_input_place{
+    width: 100%;
+  }
+  .hello_title{
+    font-size: 26px;
+  }
+  .hello_subtitle{
+    font-size: 12px;
+  }
+  .hello_text{
+    margin-top: 100px;
+  }
+  .input_line1{
+    height: 45px;
+  }
+  .input_line2{
+    height: 45px;
+  }
+  .input_line3{
+    height: 200px;
+  }
+  .hello_button{
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+}

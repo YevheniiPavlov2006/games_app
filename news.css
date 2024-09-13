@@ -1,0 +1,246 @@
+.news_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 60px 100px 60px;
+}
+
+.news_content_header{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.news_content_header_input_place{
+  background-color: #1C140F;
+  padding: 18px 35px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.news_content_header_input{
+  background-color: #1C140F;
+  border: none;
+  outline: none;
+  width: 300px;
+  height: 30px;
+}
+
+.news_content_header_input::placeholder{
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.news_content_body{
+  display: flex;
+  align-items: start;
+  gap: 70px;
+}
+
+.news_content_body_column1{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 90px;
+  color: white;
+}
+
+.news_content_column1_line{
+  width: 100%;
+  background-color: #A5A5A5;
+  height: 1px;
+}
+
+.news_content_column1_card{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 22px;
+  max-width: 587px;
+}
+
+.news_content_button_place{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.news_content_button{
+  padding: 10px 30px;
+  font-size: 16px;
+  color: white;
+  border-style: none;
+  min-width: 150px;
+}
+
+.news_button_column1{
+  background-color: #2351F5;
+}
+
+.news_content_column1_title{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.news_content_column1_text{
+  font-size: 17px;
+}
+
+.news_content_body_column2{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 60px;  
+}
+
+.news_content_column2_card{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: white;
+}
+
+.news_column2_card_content{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.news_column2_card_text{
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.column2_btn2, .column2_btn4, .column2_btn6{
+  background-color: #2351F5;
+}
+
+.column2_btn7{
+  background-color: #9921C3;
+}
+
+.column2_btn1{
+  background-color: #FF8484;
+}
+
+.column2_btn3{
+  background-color: #FF7C32;
+}
+
+.column2_btn5{
+  background-color: #23A54F;
+}
+@media(max-width:1200px){
+  .news_content_body{
+    gap: 40px;
+  }
+  .news_content_column1_img{
+    width: 450px;
+  }
+}
+@media(max-width:1000px){
+  .news_content_column2_img{
+    width: 150px;
+    height: 120px;
+  }
+  .news_content_column2_card{
+    gap: 15px;
+  }
+  .news_column2_card_text{
+    font-size: 16px;
+  }
+  .news_content_column1_img{
+    width: 100%;
+  }
+  .news_content_column1_title{
+    font-size: 15px;
+  }
+  .news_content_column1_text{
+    font-size: 12px;
+  }
+  .news_content_column1_card{
+    gap: 15px;
+  }
+  .news_content_body_column1{
+    gap: 40px;
+  }
+  .news_content_body_column2{
+    gap: 30px;
+  }
+}
+@media(max-width:800px){
+  .news_content{
+    padding: 40px 40px 60px 40px;
+  }
+  .news_column2_card_text{
+    font-size: 14px;
+  }
+  .news_content_time{
+    font-size: 14px;
+  }
+  .news_content_body{
+    gap: 30px;
+  }
+  .news_content_column2_img{
+    width: 100px;
+    height: 100px;
+  }
+}
+@media(max-width:700px){
+  .news_content_body{
+    flex-direction: column;
+    padding: 20px 0px 50px 0px;
+    justify-content: center;
+    align-items: start;
+  }
+  .news_content_header_input_place{
+    padding: 8px 15px;
+  }
+  .news_content_header_input{
+    width: 200px;
+  }
+  .news_content_body_column2{
+    flex-wrap: wrap;
+  }
+  .news_column2_card_content{
+    width: 100%;
+  }
+  .news_content_column2_img{
+    width: 180px;
+    height: 150px;
+  }
+  .news_column2_card_text{
+    font-size: 20px;
+  }
+  .news_content_header{
+    margin-bottom: 20px;
+  }
+}
+@media(max-width:500px){
+  .news_content_column1_img{
+    width: 300px;
+  }
+  .news_content_column1_card{
+    width: 300px;
+  }
+  .news_content_column2_card{
+    width: 300px;
+  }
+  .news_content_column2_img{
+    width: 100px;
+    height: 100px;
+  }
+  .news_column2_card_text{
+    font-size: 12px;
+  }
+  .news_content_button{
+    min-width: 120px;
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+}
