@@ -265,7 +265,8 @@ body{
     font-size: 16px;
   }
   .main_content__text{
-    width: 250px;
+    width: 100%;
+    padding: 0 20px;
   }
 }
 
@@ -273,7 +274,7 @@ body{
 .games{
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
+  margin-top: 80px;
   padding: 0 60px;
 }
 
@@ -369,25 +370,32 @@ body{
     padding: 8px 18px;
     font-size: 15px;
   }
+  .games{
+    margin-top: 60px;
+  }
 }
 @media(max-width:500px){
   .games_header{
-    padding: 0 20px;
+    padding: 0 0px;
   }
   .games_button{
-    padding: 10px 10px;
+    padding: 8px 5px;
     font-size: 12px;
     width: 100px;
     margin-bottom: -25px;
   }
   .game_card__img{
-    width: 200px;
+    width: 160px;
   }
   .games_title{
-    font-size: 18px;
+    font-size: 16px;
+    width: 200px;
   }
   .game_card__title{
-    font-size: 18px;
+    font-size: 16px;
+  }
+  .games{
+    padding: 0 20px;
   }
 }
 
